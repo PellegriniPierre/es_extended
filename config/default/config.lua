@@ -12,7 +12,7 @@
 
 Config = {}
 
-Config.Locale = "en"
+Config.Locale = "fr"
 
 Config.Accounts = {
   bank = _U("account_bank"),
