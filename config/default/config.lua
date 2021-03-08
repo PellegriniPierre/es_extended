@@ -35,30 +35,30 @@ Config.BackpackWeight = {
   [45] = 23
 }
 
-Config.EnableSocietyPayouts = false -- pay from the society account that the player is employed at? Requirement= esx_society
+Config.EnableSocietyPayouts = true -- pay from the society account that the player is employed at? Requirement= esx_society
 Config.DisableWantedLevel = true
-Config.EnableHud = true -- enable the default hud? Display current job and accounts (black, bank & cash)
+Config.EnableHud = false -- enable the default hud? Display current job and accounts (black, bank & cash)
 Config.EnablePvP = true -- enable pvp?
 Config.MaxWeight = 24 -- the max inventory weight without backpack
 
 Config.PaycheckInterval = 7 * 60000 -- how often to recieve pay checks in milliseconds
 
-Config.EnableDebug = false
+Config.EnableDebug = true
 Config.InventoryKey = "REPLAY_START_STOP_RECORDING_SECONDARY" -- Key F2 by default
 Config.EnableLoadScreen = true
 
 Config.Modules = {
-  accessories = true,
-  addonaccount = true,
-  addoninventory = true,
-  container = true,
-  datastore = true,
-  db = true,
-  hud = true,
-  input = true,
-  interact = true,
-  skin = true,
-  society = true,
-  voice = true,
-  identity = true
+  accessories = false,
+  addonaccount = false,
+  addoninventory = false,
+  container = false,
+  datastore = false,
+  db = false,
+  hud = false,
+  input = false,
+  interact = false,
+  skin = false,
+  society = false,
+  voice = false,
+  identity = false
 }

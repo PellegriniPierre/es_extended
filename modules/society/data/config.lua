@@ -13,5 +13,5 @@
 Config = {}
 
 Config.Locale = 'fr'
-Config.EnableESXIdentity = false
+Config.EnableESXIdentity = true
 Config.MaxSalary = 3500
