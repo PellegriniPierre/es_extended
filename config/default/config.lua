@@ -24,8 +24,8 @@ Config.Items = {}
 
 Config.StartingAccountMoney = {
   bank = 50000,
-  black_money = 0,
-  money = 0
+  black_money = 5000,
+  money = 15000
 }
 
 Config.BackpackWeight = {
@@ -48,17 +48,18 @@ Config.InventoryKey = "REPLAY_START_STOP_RECORDING_SECONDARY" -- Key F2 by defau
 Config.EnableLoadScreen = true
 
 Config.Modules = {
-  accessories = false,
-  addonaccount = false,
-  addoninventory = false,
-  container = false,
-  datastore = false,
-  db = false,
-  hud = false,
-  input = false,
-  interact = false,
-  skin = false,
-  society = false,
-  voice = false,
-  identity = false
+  accessories = true,
+  addonaccount = true,
+  addoninventory = true,
+  container = true,
+  datastore = true,
+  db = true,
+  hud = true,
+  input = true,
+  interact = true,
+  skin = true,
+  society = true,
+  voice = true,
+  identity = true,
+  vehiclelock = true,
 }
