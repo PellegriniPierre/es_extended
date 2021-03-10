@@ -1,16 +1,4 @@
--- Copyright (c) Jérémie N'gadi
---
--- All rights reserved.
---
--- Even if 'All rights reserved' is very clear :
---
---   You shall not use any piece of this software in a commercial product / service
---   You shall not resell this software
---   You shall not provide any facility to install this particular software in a commercial product / service
---   If you redistribute this software, you must link to ORIGINAL repository at https://github.com/ESX-Org/es_extended
---   This copyright should appear in every part of the project code
-
-Translations = {
+Locales['fr'] = {
   ['actions']                = 'actions',
   ['boss_menu']              = 'patron',
   ['money_generic']          = '$%s',
@@ -25,7 +13,7 @@ Translations = {
   ['have_deposited']         = 'vous avez déposé ~r~$%s~s~',
   ['have_withdrawn']         = 'vous avez retiré ~g~$%s~s~',
   ['invalid_amount']         = 'montant invalide',
-  ['invalid_amount_max']     = 'ce salaire n\'est pas autorisé',
+  ['invalid_amount_max']     = 'that salary is not allowed',
   ['no']                     = 'non',
   ['promote']                = 'promouvoir',
   ['promote_employee']       = 'promouvoir %s',
