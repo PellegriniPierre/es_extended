@@ -11,7 +11,7 @@
 --   This copyright should appear in every part of the project code
 
 local esx_config = {
-  enable_loadscreen = true
+  enable_loadscreen = false
 }
 
 fx_version      'adamant'
@@ -25,7 +25,6 @@ dependencies {
   'spawnmanager',
   'baseevents',
   'mysql-async',
-  'async',
   'cron',
   'skinchanger'
 }
@@ -47,7 +46,6 @@ files {
 
 server_scripts {
 
-  '@async/async.lua',
   '@mysql-async/lib/MySQL.lua',
 
   'locale.lua',
