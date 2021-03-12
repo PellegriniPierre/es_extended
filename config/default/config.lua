@@ -45,7 +45,7 @@ Config.PaycheckInterval = 7 * 60000 -- how often to recieve pay checks in millis
 
 Config.EnableDebug = true
 Config.InventoryKey = "REPLAY_START_STOP_RECORDING_SECONDARY" -- Key F2 by default
-Config.EnableLoadScreen = true
+Config.EnableLoadScreen = false
 
 Config.Modules = {
   accessories = true,
@@ -70,7 +70,7 @@ Config.Modules = {
   migrations = true,
   barbershop = true,
   basineeds = true,
-  biling = true,
+  billing = true,
   boat = true,
   boilerplate = true,
   clotheshop = true,
@@ -103,5 +103,5 @@ Config.Modules = {
   vehicleshop = true,
   weaponshop = true,
   whitelist = true,
-  whitelistEnhanced = true,
+  whitelistEnhanced = true
 }
